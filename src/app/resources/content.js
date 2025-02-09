@@ -153,7 +153,7 @@ const about = {
     skills: [
       {
         title: "Fusion 360",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        description: <>Able to prototype in Fusion 360 with speed and efficiency.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -203,6 +203,7 @@ const work = {
   // All projects will be listed on the /home and /work routes
 };
 
+/*
 const gallery = {
   label: "Gallery",
   title: "My photo gallery",
@@ -281,5 +282,6 @@ const gallery = {
     },
   ],
 };
+*/
 
 export { person, social, newsletter, home, about, blog, work, gallery };
