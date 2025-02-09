@@ -89,7 +89,7 @@ const about = {
   },
   work: {
     display: false, // set to false to hide this section
-    title: "Work Experience",
+    title: "Experience",
     experiences: [
       {
         company: "FLY",
