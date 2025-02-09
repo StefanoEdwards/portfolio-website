@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "High School Student",
+  role: "HS Student",
   avatar: "/images/avatar.jpg",
   location: "Canada/Eastern", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
@@ -55,7 +55,7 @@ const home = {
   headline: <>High School Student</>,
   subline: (
     <>
-      I'm Stefano, a student passionate about <InlineCode>robotics</InlineCode>, and computer vision.
+      I'm Stefano, a student passionate about <InlineCode>robotics</InlineCode>, and <InlineCode>computer vision</InlineCode>.
       <br /> In my spare time, I love building cool projects.
     </>
   ),
@@ -88,21 +88,21 @@ const about = {
     ),
   },
   work: {
-    display: false, // set to false to hide this section
+    display: true, // set to false to hide this section
     title: "Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "FIRST Robotics",
+        timeframe: "2019 - Present",
+        role: "Mechanical Design",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Started in 5th grade building lego robots, now designing in Fusion 360 for a 
+            world class FRC team.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Designing mechanisms from the ground up and managing in-house fabrication on our 
+            CNC router and fleet of 3D printers.
           </>,
         ],
         images: [
@@ -116,17 +116,17 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Community Mentor",
+        timeframe: "2021 - Present",
+        role: "Teaching STEM",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Spent 160+ hours mentoring FLL students from grades 5-8, teaching them programming, 
+            CAD, and presentation skills.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Taught programming sessions at the last three Ontario FLL Provincial Kickoffs and
+            lead robotics workshops empowering underserved youth in the Jane and Finch area of Toronto. 
           </>,
         ],
         images: [],
@@ -138,12 +138,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Bayview Glen Independent School",
+        description: <>Studying science, com sci and math.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "The Knowledge Society",
+        description: <>Learning about cutting edge tech and AI.</>,
       },
     ],
   },
@@ -152,7 +152,7 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Fusion 360",
         description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
@@ -171,8 +171,8 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Computer Vision Frameworks",
+        description: <>Building awesome proects with Tensorflow, Open CV and YOLO.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
