@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "HS Student",
+  role: "Stefano Edwards",
   avatar: "/images/avatar.jpg",
   location: "Canada/Eastern", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
@@ -108,7 +108,7 @@ const about = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
+            src: "/images/projects/project-01/2024bot.jpeg",
             alt: "Once UI Project",
             width: 16,
             height: 9,
