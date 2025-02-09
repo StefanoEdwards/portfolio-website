@@ -108,8 +108,8 @@ const about = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/2024bot.jpeg",
-            alt: "Once UI Project",
+            src: "/myfile/2024bot.jpeg",
+            alt: "My team's 2024FRC robot",
             width: 16,
             height: 9,
           },
@@ -129,7 +129,15 @@ const about = {
             lead robotics workshops empowering underserved youth in the Jane and Finch area of Toronto. 
           </>,
         ],
-        images: [],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/myfile/2024bot.jpeg",
+            alt: "My team's 2024FRC robot",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
