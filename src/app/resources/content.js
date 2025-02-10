@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Tinkerer & Builder",
-  avatar: "/myfile/pfp2.jpg",
+  avatar: "/myfile/profilepic.jpg",
   location: "Canada/Eastern", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "French"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -196,6 +196,7 @@ const about = {
 };
 
 const blog = {
+  display: false, // set to false to hide this section
   label: "Blog",
   title: "Writing about design and tech...",
   description: `Read what ${person.name} has been up to recently`,
@@ -204,6 +205,7 @@ const blog = {
 };
 
 const work = {
+  display: false, // set to false to hide this section
   label: "Work",
   title: "My projects",
   description: `Design and dev projects by ${person.name}`,
@@ -212,6 +214,7 @@ const work = {
 };
 
 const gallery = {
+  display: false, // set to false to hide this section
   label: "Gallery",
   title: "A photo gallery",
   description: `A photo collection from pexels.com`,
