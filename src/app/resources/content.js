@@ -56,7 +56,7 @@ const home = {
   subline: (
     <>
       I'm Stefano, a student passionate about <InlineCode>robotics</InlineCode>, and <InlineCode>computer vision</InlineCode>.
-      <br /> In my spare time, I love building cool projects.
+      <br /> In my spare time, I build cool projects.
     </>
   ),
 };
