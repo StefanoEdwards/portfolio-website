@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Stefano Edwards",
+  role: "Tinkerer & Builder",
   avatar: "/myfile/profilepic.jpg",
   location: "Canada/Eastern", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
@@ -101,7 +101,7 @@ const about = {
             world class FRC team.
           </>,
           <>
-            Designing mechanisms from the ground up and managing in-house fabrication on our 
+            Designed mechanisms from the ground up and managed in-house fabrication on our 
             CNC router and fleet of 3D printers.
           </>,
         ],
@@ -168,13 +168,13 @@ const about = {
             src: "/myfile/MShandoff.png",
             alt: "Project image",
             width: 16,
-            height: 9,
+            height: 13,
           },
           {
             src: "/myfile/gearboxside.png",
             alt: "Project image",
             width: 16,
-            height: 9,
+            height: 13,
           },
         ],
       },
@@ -187,7 +187,7 @@ const about = {
             src: "/myfile/cvpic.png",
             alt: "Project image",
             width: 16,
-            height: 9,
+            height: 12,
           },
         ],
       },
@@ -218,72 +218,72 @@ const gallery = {
   // Images from https://pexels.com
   images: [
     {
-      src: "/images/gallery/img-01.jpg",
+      src: "",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-02.jpg",
+      src: "",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-03.jpg",
+      src: "",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-04.jpg",
+      src: "",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-05.jpg",
+      src: "",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-06.jpg",
+      src: "",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-07.jpg",
+      src: "",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-08.jpg",
+      src: "",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-09.jpg",
+      src: "",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-10.jpg",
+      src: "",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-11.jpg",
+      src: "",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-12.jpg",
+      src: "",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-13.jpg",
+      src: "",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-14.jpg",
+      src: "",
       alt: "image",
       orientation: "horizontal",
     },
