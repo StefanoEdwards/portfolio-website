@@ -9,7 +9,7 @@ const person = {
   role: "Tinkerer & Builder",
   avatar: "/myfile/profilepic.jpg",
   location: "Canada/Eastern", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["English", "French"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
