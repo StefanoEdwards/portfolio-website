@@ -196,7 +196,6 @@ const about = {
 };
 
 const blog = {
-  display: false, // set to false to hide this section
   label: "Blog",
   title: "Writing about design and tech...",
   description: `Read what ${person.name} has been up to recently`,
@@ -205,7 +204,6 @@ const blog = {
 };
 
 const work = {
-  display: false, // set to false to hide this section
   label: "Work",
   title: "My projects",
   description: `Design and dev projects by ${person.name}`,
@@ -214,7 +212,6 @@ const work = {
 };
 
 const gallery = {
-  display: false, // set to false to hide this section
   label: "Gallery",
   title: "A photo gallery",
   description: `A photo collection from pexels.com`,
