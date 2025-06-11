@@ -68,7 +68,7 @@ const display = {
 };
 
 const mailchimp = {
-  action: "https://url/subscribe/post?parameters",
+  action: "https://stefanoedwards.substack.com/?r=58t2ou&utm_campaign=pub-share-checklist",
   effects: {
     mask: {
       cursor: false,
