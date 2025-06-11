@@ -198,7 +198,7 @@ const about = {
           {
             src: "/myfile/cv1.webp",
             alt: "Project image",
-            width: 16,
+            width: 32,
             height: 12,
           },
           {
