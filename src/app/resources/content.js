@@ -113,6 +113,12 @@ const about = {
             width: 16,
             height: 9,
           },
+          {
+            src: "/myfile/usingdrill.png",
+            alt: "My team's 2024FRC robot",
+            width: 16,
+            height: 9,
+          },
         ],
       },
       {
@@ -131,6 +137,12 @@ const about = {
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
+          {
+            src: "/myfile/usingdrill.png",
+            alt: "My team's 2024FRC robot",
+            width: 16,
+            height: 9,
+          },
           {
             src: "/myfile/usingdrill.png",
             alt: "My team's 2024FRC robot",
@@ -165,7 +177,7 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/myfile/MShandoff.png",
+            src: "/myfile/LS4bar.png",
             alt: "Project image",
             width: 16,
             height: 13,
@@ -188,6 +200,12 @@ const about = {
             alt: "Project image",
             width: 16,
             height: 12,
+          },
+          {
+            src: "/myfile/usingdrill.png",
+            alt: "My team's 2024FRC robot",
+            width: 16,
+            height: 9,
           },
         ],
       },
