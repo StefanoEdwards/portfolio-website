@@ -6,3 +6,31 @@ images:
   - "/images/projects/project-01/scrimg1.mp4"
 link: "https://medium.com/@stefanoedwards/scrimg-cv-based-game-tape-recording-2a271557e341"
 ---
+
+## Overview
+
+In this project, I set out to build a lightweight computer vision pipeline that enhances basketball game footage by simulating a virtual camera operator. ScrImg automatically tracks and centers the ball in wide-angle basketball recordings, generating dynamic, watchable game tape—entirely through software. The aim was to improve video clarity and focus without relying on expensive physical tracking equipment or moving cameras.
+
+## Key Features
+
+- **Object Detection with YOLOv8**: Trained a custom YOLOv8 model to detect basketballs under various lighting conditions and from different angles, ensuring consistent tracking across a full-court view.
+- **Dynamic Cropping Engine**: Implemented a real-time cropping system that follows the detected ball position, creating smooth, centered video output with no mechanical components.
+- **Motion Smoothing**: Used exponential moving averages to reduce jitter and produce natural camera-like panning during fast or erratic plays.
+- **Dual-View Recording Interface**: Built a simple OpenCV interface to preview both the full frame and the dynamically cropped output, with overlays showing tracking performance and FPS.
+
+## Technologies Used
+
+- **YOLOv8 + Ultralytics**: For training and deploying the basketball detection model.
+- **OpenCV**: For real-time video processing, frame manipulation, and output generation.
+- **PyTorch**: Used to run the detection model efficiently, with optional GPU acceleration.
+- **Roboflow**: Used for annotating and managing the custom training dataset.
+
+## Challenges and Learnings
+
+One of the biggest challenges was ensuring stable ball tracking. Because the it can be small, blurry, or occluded, achieving reliable detection required careful model tuning and smoothing logic. I also learned the importance of efficient frame handling to maintain real-time performance, especially on limited hardware. The balance between responsiveness and stability in camera motion was particularly critical for watchability.
+
+## Outcome
+
+ScrImg successfully demonstrates that AI-powered video enhancement can create engaging game tape without complex hardware. The system consistently centers the ball in recorded footage and delivers a smoother viewing experience for analysis or content creation. While initial testing was done in a controlled environment, the next phase will involve real-world use during basketball practices to further evaluate robustness and expand the training dataset. Future iterations moght explore predictive tracking, mobile deployment, and cloud-based processing to make the tool even more accessible.
+
+---
