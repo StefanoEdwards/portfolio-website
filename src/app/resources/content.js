@@ -159,12 +159,16 @@ const about = {
     institutions: [
       {
         name: "Bayview Glen Independent School",
-        description: <>Studying science, com sci and math.</>,
+        description: <>Focused on an advanced curriculum in science, computer science, and mathematics, fostering analytical thinking and problem-solving skills.</>,
       },
       {
         name: "The Knowledge Society",
-        description: <>Learning about cutting edge tech and AI.</>,
+        description: <>Selected for a global innovation program where I explore frontier technologies like AI, nanotech, and synthetic biology, while developing real-world problem-solving and entrepreneurial skills.</>,
       },
+      {
+        name: "SHAD Canada",
+        description: <>Attending a nationally recognized summer engineering and entrepreneurship program, collaborating with top students across the country to tackle real-world design challenges.</>,
+      },    
     ],
   },
   technical: {
@@ -195,12 +199,6 @@ const about = {
         description: <>Building awesome proects with Tensorflow, Open CV and YOLO.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/myfile/cv1.webp",
-            alt: "Project image",
-            width: 32,
-            height: 16,
-          },
           {
             src: "/myfile/cvgif.gif",
             alt: "My team's 2024 FRC robot",
