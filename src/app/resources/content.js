@@ -239,22 +239,22 @@ const gallery = {
       orientation: "horizontal",
     },
     {
+      src: "/images/gallery/g2.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
       src: "/images/gallery/g7.mp4",
       alt: "image",
       orientation: "vertical",
     },
     {
+      src: "/images/gallery/g5.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
       src: "/images/gallery/g8.mp4",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/g9.mp4",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/g2.png",
       alt: "image",
       orientation: "horizontal",
     },
@@ -289,11 +289,6 @@ const gallery = {
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/g5.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
       src: "/images/gallery/g14.png",
       alt: "image",
       orientation: "horizontal",
@@ -315,6 +310,11 @@ const gallery = {
     },
     {
       src: "/images/gallery/g3.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/g9.mp4",
       alt: "image",
       orientation: "horizontal",
     },
