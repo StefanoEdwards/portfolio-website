@@ -4,6 +4,7 @@ import Masonry from "react-masonry-css";
 import { SmartImage } from "@/once-ui/components";
 import styles from "./Gallery.module.scss";
 import { gallery } from "@/app/resources/content";
+import { useInView } from "react-intersection-observer";
 
 export default function MasonryGrid() {
   const breakpointColumnsObj = {
@@ -13,9 +14,8 @@ export default function MasonryGrid() {
     560: 1,
   };
 
-  const isVideo = (src: string) => {
-    return src.endsWith(".mp4") || src.endsWith(".webm") || src.endsWith(".mov");
-  };
+  const isVideo = (src: string) =>
+    src.endsWith(".mp4") || src.endsWith(".webm") || src.endsWith(".mov");
 
   return (
     <Masonry
@@ -24,26 +24,40 @@ export default function MasonryGrid() {
       columnClassName={styles.masonryGridColumn}
     >
       {gallery.images.map((media, index) => {
-        const aspectRatio = media.orientation === "horizontal" ? "16 / 9" : "9 / 16";
+        const aspectRatio =
+          media.orientation === "horizontal" ? "16 / 9" : "9 / 16";
 
         if (isVideo(media.src)) {
+          const { ref, inView } = useInView({
+            triggerOnce: true,
+            rootMargin: "200px",
+          });
+
           return (
-            <video
+            <div
               key={index}
-              src={media.src}
-              preload="none"
-              poster={media.poster || "/images/placeholder.jpg"} // optional
-              muted
-              playsInline
-              controls
-              style={{
-                width: "100%",
-                aspectRatio,
-                borderRadius: "12px",
-                objectFit: "cover",
-              }}
+              ref={ref}
+              style={{ width: "100%", aspectRatio }}
               className={styles.gridItem}
-            />
+            >
+              {inView && (
+                <video
+                  src={media.src}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  preload="none"
+                  poster={media.poster || "/images/placeholder.jpg"} // Optional poster fallback
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    borderRadius: "12px",
+                  }}
+                />
+              )}
+            </div>
           );
         }
 
