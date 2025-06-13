@@ -239,11 +239,6 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/g3.png",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
       src: "/images/gallery/g7.mp4",
       alt: "image",
       orientation: "vertical",
@@ -252,11 +247,6 @@ const gallery = {
       src: "/images/gallery/g8.mp4",
       alt: "image",
       orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/g5.jpg",
-      alt: "image",
-      orientation: "vertical",
     },
     {
       src: "/images/gallery/g9.mp4",
@@ -279,7 +269,7 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/g11.mp4",
+      src: "/images/gallery/g18.mp4",
       alt: "image",
       orientation: "vertical",
     },
@@ -295,6 +285,11 @@ const gallery = {
     },
     {
       src: "/images/gallery/g13.mp4",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/g5.jpg",
       alt: "image",
       orientation: "vertical",
     },
@@ -317,6 +312,11 @@ const gallery = {
       src: "/images/gallery/g16.mp4",
       alt: "image",
       orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/g3.png",
+      alt: "image",
+      orientation: "horizontal",
     },
   ],
 };
