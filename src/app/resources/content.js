@@ -231,15 +231,25 @@ const gallery = {
   label: "Gallery",
   title: "A gallery",
   description: `A photo collection of my projects`,
-  // Images from https://pexels.com
+  // My images
   images: [
     {
-      src: "/images/gallery/g10.mp4",
+      src: "/images/gallery/g1.png",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/g1.png",
+      src: "/images/gallery/g2.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/g3.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/g4.png",
       alt: "image",
       orientation: "horizontal",
     },
@@ -251,55 +261,60 @@ const gallery = {
     {
       src: "/images/gallery/g6.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-05.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-06.jpg",
+      src: "/images/gallery/g7.mp4",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-07.jpg",
+      src: "/images/gallery/g8.mp4",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-08.jpg",
+      src: "/images/gallery/g9.mp4",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/g10.mp4",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/g11.mp4",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-09.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-10.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-11.jpg",
+      src: "/images/gallery/g12.mp4",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-12.jpg",
+      src: "/images/gallery/g13.mp4",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/g14.png",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-13.jpg",
+      src: "/images/gallery/g15.mp4",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-14.jpg",
+      src: "/images/gallery/g16.mp4",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/g17.mp4",
       alt: "image",
       orientation: "horizontal",
     },
