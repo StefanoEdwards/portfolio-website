@@ -229,7 +229,7 @@ const work = {
 
 const gallery = {
   label: "Gallery",
-  title: "Project gallery",
+  title: "Some projects of mine",
   description: `A photo collection of my projects`,
   // My images
   images: [
