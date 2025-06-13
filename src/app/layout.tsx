@@ -41,6 +41,10 @@ export async function generateMetadata() {
   };
 }
 
+type FontConfig = {
+  variable: string;
+};
+
 const primary = Inter({
   variable: "--font-primary",
   subsets: ["latin"],
