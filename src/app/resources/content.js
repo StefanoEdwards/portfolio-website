@@ -269,7 +269,7 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/g18.mp4",
+      src: "/images/gallery/g13.mp4",
       alt: "image",
       orientation: "vertical",
     },
@@ -284,7 +284,7 @@ const gallery = {
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/g13.mp4",
+      src: "/images/gallery/g18.mp4",
       alt: "image",
       orientation: "vertical",
     },
