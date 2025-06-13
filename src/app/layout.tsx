@@ -47,8 +47,8 @@ const primary = Inter({
   display: "swap",
 });
 
-const secondary = undefined;
-const tertiary = undefined;
+const secondary: FontConfig | null = null;
+const tertiary: FontConfig | null = null;
 
 const code = Source_Code_Pro({
   variable: "--font-code",
@@ -77,8 +77,8 @@ export default async function RootLayout({ children }: RootLayoutProps) {
       data-transition={style.transition}
       className={classNames(
         primary.variable,
-        secondary ? secondary.variable : "",
-        tertiary ? tertiary.variable : "",
+        secondary?.variable,
+        tertiary?.variable,
         code.variable,
       )}
     >
