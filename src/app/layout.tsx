@@ -12,6 +12,8 @@ import { Source_Code_Pro } from "next/font/google";
 import { person, home } from "@/app/resources/content";
 import { Background, Column, Flex, ToastProvider } from "@/once-ui/components";
 
+import PreloadGallery from "@/components/gallery/PreloadGallery";
+
 export async function generateMetadata() {
   return {
     metadataBase: new URL(`https://${baseURL}`),
@@ -45,18 +47,8 @@ const primary = Inter({
   display: "swap",
 });
 
-type FontConfig = {
-  variable: string;
-};
-
-/*
-	Replace with code for secondary and tertiary fonts
-	from https://once-ui.com/customize
-*/
-const secondary: FontConfig | undefined = undefined;
-const tertiary: FontConfig | undefined = undefined;
-/*
- */
+const secondary = undefined;
+const tertiary = undefined;
 
 const code = Source_Code_Pro({
   variable: "--font-code",
@@ -108,18 +100,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
               tilt: effects.gradient.tilt,
               colorStart: effects.gradient.colorStart,
               colorEnd: effects.gradient.colorEnd,
-              opacity: effects.gradient.opacity as
-                | 0
-                | 10
-                | 20
-                | 30
-                | 40
-                | 50
-                | 60
-                | 70
-                | 80
-                | 90
-                | 100,
+              opacity: effects.gradient.opacity as any,
             }}
             dots={{
               display: effects.dots.display,
@@ -141,6 +122,10 @@ export default async function RootLayout({ children }: RootLayoutProps) {
           />
           <Flex fillWidth minHeight="16"></Flex>
           <Header />
+
+          {/* Preload media assets in background */}
+          <PreloadGallery />
+
           <Flex
             position="relative"
             zIndex={0}
@@ -154,6 +139,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
               <RouteGuard>{children}</RouteGuard>
             </Flex>
           </Flex>
+
           <Footer />
         </Column>
       </ToastProvider>
