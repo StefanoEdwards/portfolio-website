@@ -229,8 +229,8 @@ const work = {
 
 const gallery = {
   label: "Gallery",
-  title: "A photo gallery",
-  description: `A photo collection from pexels.com`,
+  title: "A gallery",
+  description: `A photo collection of my projects`,
   // Images from https://pexels.com
   images: [
     {
