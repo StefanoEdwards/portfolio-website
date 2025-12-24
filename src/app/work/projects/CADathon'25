@@ -1,57 +1,8 @@
 ---
-title: "Building Tower at the 2024 FRC WCP CADathon"
+title: "Building Tower at the 2025 FRC WCP CADathon"
 publishedAt: "2025-12-23"
-summary: "At the 2024 FRC WCP CADathon, our team designed and documented a complete FRC robot in under a week, taking Tower from game analysis to a fully designed robot."
 images:
-  - "/images/projects/project-01/side4.jpg"
-  - "/images/projects/project-01/side2.jpg"
-  - "/images/projects/project-01/side3.jpg"
-team:
-  - name: "Stefano Edwards"
-    role: "Mechanical Design"
-    avatar: "/images/avatar.jpg"
-    linkedIn: "https://www.linkedin.com/in/stefano-edwards/"
-  - name: "Grayson Tucker"
-    role: "Mechanical Design"
-    avatar: "/images/projects/project-01/nysa.jpg"
-    linkedIn: "https://www.linkedin.com/in/grayson-tucker-7a2412275/"
-  - name: "Athan Wang"
-    role: "Mechanical Design"
-    avatar: "/images/projects/project-01/nysa.jpg"
-    linkedIn: "https://www.linkedin.com/in/athan-wang-5036a439a/"
-  - name: "Ryan Zhang"
-    role: "Mechanical Design"
-    avatar: "/images/projects/project-01/nysa.jpg"
-    linkedIn: "https://www.linkedin.com/in/firstryanzhang/"
-  - name: "Ryan Kong"
-    role: "Mechanical Design"
-    avatar: "/images/projects/project-01/nysa.jpg"
-    linkedIn: "https://www.linkedin.com/in/ryan-kong-775152342/"
+  - "/images/projects/project-01/wcpbot.png"
+summary: "At the 2024 FRC WCP CADathon, our team designed and documented a complete FRC robot in under a week, taking Tower from game analysis to a fully designed robot."
+link: "https://drive.google.com/file/d/1p2sMZ0a3Z2IKq-fKBQwiLN-ick9TY_y3/view?usp=sharing"
 ---
-
-## Overview
-
-The 2024 FRC WCP CADathon challenged teams to design a complete competition-ready robot under extreme time constraints. Working alongside four teammates, we took the game *Hero Heist* from rulebook release to a fully designed robot with complete technical documentation in just one week.
-Our robot, **Tower**, was built to efficiently handle the game piece—called the *Story Panel*—and score at every required height while minimizing cycle time.
-Check out our tech binder here: https://drive.google.com/file/d/1p2sMZ0a3Z2IKq-fKBQwiLN-ick9TY_y3/view?usp=sharing
-
-## Key Features
-
-- **4-Bar Linkage Intake**: Enables reliable ground pickup of Story Panels.
-- **Chain-Driven Handoff Arm**: Transfers game pieces smoothly from intake to elevator.
-- **3-Stage Continuous Belt Elevator**: Allows fast, stable scoring at all field heights.
-- **Carriage-Integrated End Effector**: Reduces complexity and improves scoring precision.
-- **Multi-Panel Storage**: Stores all three Story Panels simultaneously to optimize scoring cycles.
-
-## Technologies Used
-
-- **Onshape (CAD)**: Primary mechanical design platform, adopted under tight time constraints.
-- **Technical Documentation**: Produced a full engineering binder detailing mechanisms, constraints, and design rationale.
-
-## Challenges and Learnings
-
-The most demanding aspect of the CADathon was the timeline. We spent the first four days on strategic analysis and design planning, then CADed the entire robot in under 72 hours. Many of us were transitioning to Onshape for the first time after primarily using SolidWorks or Fusion 360, which added an additional learning curve. Late-night Discord calls and rapid iteration were essential to meeting the deadline.
-
-## Outcome
-
-Tower successfully met all game requirements, scoring at every height and demonstrating a cohesive, competition-ready design. Completing a full robot and technical binder under such constraints reinforced the importance of upfront strategy, clear communication, and paralell design work.
