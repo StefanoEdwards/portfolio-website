@@ -249,6 +249,11 @@ const gallery = {
       orientation: "vertical",
     },
     {
+      src: "/images/gallery/finalfinalintake.mp4",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
       src: "/images/gallery/g5.jpg",
       alt: "image",
       orientation: "vertical",
@@ -322,6 +327,11 @@ const gallery = {
       src: "/images/gallery/4bar.mp4",
       alt: "image",
       orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/finalkicker.mp4",
+      alt: "image",
+      orientation: "vertical",
     },
   ],
 };
