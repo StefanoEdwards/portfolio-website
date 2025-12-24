@@ -328,11 +328,6 @@ const gallery = {
       alt: "image",
       orientation: "horizontal",
     },
-    {
-      src: "/images/gallery/finalkicker.mp4",
-      alt: "image",
-      orientation: "vertical",
-    },
   ],
 };
 
