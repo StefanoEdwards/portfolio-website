@@ -1,46 +1,54 @@
 ---
-title: "Designing Aegis, A Next-Gen Medical Alert Bracelet"
-publishedAt: "2025-06-10"
-summary: "We are developing a responsive, voice-guided medical alert bracelet, integrating wearable hardware and mobile software to provide real-time emergency instruction for bystanders."
+title: "Building PillPal, A Smart Medication Adherence System"
+publishedAt: "2025-12-23"
+summary: "PillPal is an intelligent medication dispenser that combines computer vision, sensors, and automated voice calls to ensure medications are taken correctly and caregivers are alerted when they aren’t."
 images:
   - "/images/projects/project-01/side4.jpg"
   - "/images/projects/project-01/side2.jpg"
   - "/images/projects/project-01/side3.jpg"
 team:
   - name: "Stefano Edwards"
-    role: "CTO"
+    role: "CAD Lead"
     avatar: "/images/avatar.jpg"
     linkedIn: "https://www.linkedin.com/company/once-ui/"
   - name: "Diya Deepak"
-    role: "COO"
+    role: "Software Lead"
     avatar: "/images/projects/project-01/diyapfp.jpg"
     linkedIn: "https://www.linkedin.com/in/diya-deepak-a0a1b92bb/"
-  - name: "Nysa Singhi"
-    role: "CEO"
+  - name: "Bobby Yang"
+    role: "Electronics Lead"
     avatar: "/images/projects/project-01/nysapfp.jpg"
-    linkedIn: "https://www.linkedin.com/in/nysa-singhi-421747328/"
+    linkedIn: "https://www.linkedin.com/in/bobby-yang-b7a530295/"
+  - name: "Andy Yu"
+    role: "Vision and API Lead"
+    avatar: "/images/projects/project-01/nysapfp.jpg"
+    linkedIn: "https://www.linkedin.com/in/andyyy-yuuu/"
 ---
 
 ## Overview
 
-Developing Aegis, a smart medical alert bracelet designed to empower bystanders during emergencies. It features a one-touch audio guidance system that delivers personalized, step-by-step instructions to ensure rapid, informed response for individuals in medical distress.
+PillPal is a smart medication adherence system designed to support individuals with chronic health conditions and the caregivers who look after them. Inspired by personal experiences with family members managing conditions like diabetes, arthritis, and dementia, PillPal focuses on reducing the friction and risk involved in daily medication routines.
 
 ## Key Features
 
-- **Audio Guidance System**: Designed and implemented a contextual audio system that activates with a single press. It provides real-time, spoken instructions tailored to the specific medical condition of the wearer (e.g., retrieving medication, placing in recovery position, contacting caregivers).
-- **Medical Profile Integration**: Enabled dynamic responses by linking the bracelet to the wearer’s medical profile, allowing guidance to adapt based on known conditions like epilepsy, asthma, diabetes, or severe allergies.
-- **Fail-Safe Communication**: Built-in fallback mechanisms to notify caregivers or emergency services when no human assistance is available nearby.
-- **Hardware-Software Sync**: Integrated low-energy Bluetooth communication between wearable device and smartphone, ensuring efficient power use and seamless integration.
+- **Automated Medication Dispensing**: A motor-driven rotating storage system precisely dispenses pills at scheduled times.
+- **Gesture-Based Confirmation**: Uses real-time pose detection to verify that medication is actually taken, not just dispensed.
+- **Sensor Validation**: An IR sensor in the dispensing area detects whether pills are removed from the tray.
+- **Voice Call Reminders**: Automated phone calls gently remind users to take their medication and escalate to caregivers if doses are missed.
+- **Caregiver Alerts**: Ensures no missed doses go unnoticed by notifying caregivers when intervention may be needed.
 
 ## Technologies Used
 
-- **Embedded C / Arduino**: For fast, server-rendered React applications.
-- **Figma**: For designing the user experience of both the bracelet interface and companion app.
+- **Raspberry Pi & Arduino**: Raspberry Pi handles computer vision and system logic, while Arduino manages motor control and sensor input.
+- **MediaPipe (Pose Detection)**: Lightweight pose landmark model running locally to detect hand-to-mouth motion.
+- **Python & VAPI**: For system orchestration and generating automated voice calls.
+- **Fusion 360 & 3D Printing**: Designed and fabricated the pill dispenser enclosure and mechanical components using PLA.
+- **IR Sensors & Webcam**: For pill detection and visual input.
 
 ## Challenges and Learnings
 
-Designing for emergency situations posed unique UX and audio clarity challenges, users must understand and act without hesitation. We learned that minimalism and clarity in both hardware and voice instruction are crucial. Developing hardware and software in tandem also required careful consideration of power constraints, device feedback (e.g., vibration), and usability under physical stress.
+Integrating computer vision, voice APIs, and physical hardware into a single cohesive system was the biggest challenge. Running pose detection on a Raspberry Pi introduced performance constraints, requiring us to downscale and optimize models for near-real-time inference. Hardware reliability was another hurdle, with frequent resoldering and debugging due to tight prototyping constraints. We also learned hard lessons about maintaining clean codebases and communicating effectively under pressure.
 
 ## Outcome
 
-Aegis is in the early prototype phase and has received validation from emergency responders, healthcare professionals, and accessibility experts for its potential to significantly reduce response time in medical emergencies. Currently seeking early seed funding to scale development, conduct field testing, and build the companion mobile app with secure profile integration.
+PillPal successfully demonstrated a full end-to-end medication adherence workflow: dispensing, confirmation, reminders, and caregiver escalation. As first-time hackers, we were especially proud of running a distilled MediaPipe model locally and building a system that addresses a real, emotionally significant problem.
