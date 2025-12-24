@@ -1,46 +1,57 @@
 ---
-title: "Designing Aegis, A Next-Gen Medical Alert Bracelet"
-publishedAt: "2025-06-10"
-summary: "We are developing a responsive, voice-guided medical alert bracelet, integrating wearable hardware and mobile software to provide real-time emergency instruction for bystanders."
+title: "Building Tower at the 2024 FRC WCP CADathon"
+publishedAt: "2025-12-23"
+summary: "At the 2024 FRC WCP CADathon, our team designed and documented a complete FRC robot in under a week, taking Tower from game analysis to a fully designed robot."
 images:
   - "/images/projects/project-01/side4.jpg"
   - "/images/projects/project-01/side2.jpg"
   - "/images/projects/project-01/side3.jpg"
 team:
   - name: "Stefano Edwards"
-    role: "CTO"
+    role: "Mechanical Design"
     avatar: "/images/avatar.jpg"
-    linkedIn: "https://www.linkedin.com/company/once-ui/"
-  - name: "Diya Deepak"
-    role: "COO"
-    avatar: "/images/projects/project-01/diyapfp.jpg"
-    linkedIn: "https://www.linkedin.com/in/diya-deepak-a0a1b92bb/"
-  - name: "Nysa Singhi"
-    role: "CEO"
-    avatar: "/images/projects/project-01/nysapfp.jpg"
-    linkedIn: "https://www.linkedin.com/in/nysa-singhi-421747328/"
+    linkedIn: "https://www.linkedin.com/in/stefano-edwards/"
+  - name: "Grayson Tucker"
+    role: "Mechanical Design"
+    avatar: "/images/projects/project-01/nysa.jpg"
+    linkedIn: "https://www.linkedin.com/in/grayson-tucker-7a2412275/"
+  - name: "Athan Wang"
+    role: "Mechanical Design"
+    avatar: "/images/projects/project-01/nysa.jpg"
+    linkedIn: "https://www.linkedin.com/in/athan-wang-5036a439a/"
+  - name: "Ryan Zhang"
+    role: "Mechanical Design"
+    avatar: "/images/projects/project-01/nysa.jpg"
+    linkedIn: "https://www.linkedin.com/in/firstryanzhang/"
+  - name: "Ryan Kong"
+    role: "Mechanical Design"
+    avatar: "/images/projects/project-01/nysa.jpg"
+    linkedIn: "https://www.linkedin.com/in/ryan-kong-775152342/"
 ---
 
 ## Overview
 
-Developing Aegis, a smart medical alert bracelet designed to empower bystanders during emergencies. It features a one-touch audio guidance system that delivers personalized, step-by-step instructions to ensure rapid, informed response for individuals in medical distress.
+The 2024 FRC WCP CADathon challenged teams to design a complete competition-ready robot under extreme time constraints. Working alongside four teammates, we took the game *Hero Heist* from rulebook release to a fully designed robot with complete technical documentation in just one week.
+Our robot, **Tower**, was built to efficiently handle the game piece—called the *Story Panel*—and score at every required height while minimizing cycle time.
+Check out our tech binder here: https://drive.google.com/file/d/1p2sMZ0a3Z2IKq-fKBQwiLN-ick9TY_y3/view?usp=sharing
 
 ## Key Features
 
-- **Audio Guidance System**: Designed and implemented a contextual audio system that activates with a single press. It provides real-time, spoken instructions tailored to the specific medical condition of the wearer (e.g., retrieving medication, placing in recovery position, contacting caregivers).
-- **Medical Profile Integration**: Enabled dynamic responses by linking the bracelet to the wearer’s medical profile, allowing guidance to adapt based on known conditions like epilepsy, asthma, diabetes, or severe allergies.
-- **Fail-Safe Communication**: Built-in fallback mechanisms to notify caregivers or emergency services when no human assistance is available nearby.
-- **Hardware-Software Sync**: Integrated low-energy Bluetooth communication between wearable device and smartphone, ensuring efficient power use and seamless integration.
+- **4-Bar Linkage Intake**: Enables reliable ground pickup of Story Panels.
+- **Chain-Driven Handoff Arm**: Transfers game pieces smoothly from intake to elevator.
+- **3-Stage Continuous Belt Elevator**: Allows fast, stable scoring at all field heights.
+- **Carriage-Integrated End Effector**: Reduces complexity and improves scoring precision.
+- **Multi-Panel Storage**: Stores all three Story Panels simultaneously to optimize scoring cycles.
 
 ## Technologies Used
 
-- **Embedded C / Arduino**: For fast, server-rendered React applications.
-- **Figma**: For designing the user experience of both the bracelet interface and companion app.
+- **Onshape (CAD)**: Primary mechanical design platform, adopted under tight time constraints.
+- **Technical Documentation**: Produced a full engineering binder detailing mechanisms, constraints, and design rationale.
 
 ## Challenges and Learnings
 
-Designing for emergency situations posed unique UX and audio clarity challenges, users must understand and act without hesitation. We learned that minimalism and clarity in both hardware and voice instruction are crucial. Developing hardware and software in tandem also required careful consideration of power constraints, device feedback (e.g., vibration), and usability under physical stress.
+The most demanding aspect of the CADathon was the timeline. We spent the first four days on strategic analysis and design planning, then CADed the entire robot in under 72 hours. Many of us were transitioning to Onshape for the first time after primarily using SolidWorks or Fusion 360, which added an additional learning curve. Late-night Discord calls and rapid iteration were essential to meeting the deadline.
 
 ## Outcome
 
-Aegis is in the early prototype phase and has received validation from emergency responders, healthcare professionals, and accessibility experts for its potential to significantly reduce response time in medical emergencies. Currently seeking early seed funding to scale development, conduct field testing, and build the companion mobile app with secure profile integration.
+Tower successfully met all game requirements, scoring at every height and demonstrating a cohesive, competition-ready design. Completing a full robot and technical binder under such constraints reinforced the importance of upfront strategy, clear communication, and paralell design work.
