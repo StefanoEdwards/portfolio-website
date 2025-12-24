@@ -318,6 +318,11 @@ const gallery = {
       alt: "image",
       orientation: "horizontal",
     },
+    {
+      src: "/images/gallery/4bar.mp4",
+      alt: "image",
+      orientation: "horizontal",
+    },
   ],
 };
 
